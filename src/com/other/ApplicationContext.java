@@ -9,7 +9,7 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 //@ComponentScan(basePackages = {"com.other"})
 @Import({ApplicationContextDataBase.class})
-//@PropertySource("classpath:application-context.xml")
+@PropertySource("classpath:config.properties")
 public class ApplicationContext {
 
 
