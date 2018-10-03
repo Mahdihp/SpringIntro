@@ -8,8 +8,8 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 //@ComponentScan(basePackages = {"com.other"})
-@Import(value = {ApplicationContextDataBase.class})
-@PropertySource("classpath:application-context.xml")
+@Import({ApplicationContextDataBase.class})
+//@PropertySource("classpath:application-context.xml")
 public class ApplicationContext {
 
 
