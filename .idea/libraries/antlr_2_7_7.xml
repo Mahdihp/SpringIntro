@@ -87,6 +87,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/apps/lib/SpringAndHibernate/spring-data-jpa-1.3.3.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-beans-4.3.18.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

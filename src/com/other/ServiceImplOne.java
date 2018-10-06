@@ -6,4 +6,14 @@ public class ServiceImplOne implements Service {
     public void doSomthing() {
         System.out.println("call doSomthing from ServiceImplOne");
     }
+
+    @Override
+    public void init() {
+
+    }
+
+    @Override
+    public void destroy() {
+
+    }
 }
