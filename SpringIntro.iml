@@ -5,6 +5,8 @@
       <configuration>
         <fileset id="fileset" name="Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/application-context.xml</file>
+          <file>file://$MODULE_DIR$/src/com/other/ApplicationContextDataBase.java</file>
+          <file>file://$MODULE_DIR$/src/com/other/ApplicationContext.java</file>
         </fileset>
       </configuration>
     </facet>
